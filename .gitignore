@@ -1,0 +1,5 @@
+.idea/
+venv
+publish
+dist
+sefr/__pycache__
