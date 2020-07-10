@@ -41,7 +41,7 @@ class SEFR:
 
         # weights are calculated based on Eq. 3 and Eq. 4
 
-        self.weights = (avg_pos - avg_neg) / (avg_pos + avg_neg)  # Eq. 5
+        self.weights = (avg_pos - avg_neg) / (avg_pos + avg_neg + 0.0000001)  # Eq. 5
 
 
         # For each record, a score is calculated. If the record is positive/negative, the score will be added to posscore/negscore
